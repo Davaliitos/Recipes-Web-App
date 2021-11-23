@@ -2,9 +2,18 @@
 
 Graphite's Recipes Web App allows users to register and create new recipes, as well as ingredients
 
+
+## Deployed Project URLs
+
+```bash
+http://3.144.149.35:8000/
+```
+
+
 The project is split into two parts:
 1. Frontend - React web application
 2. Backend RESTful API - Node-Express application
+
 
 # Functionality of the application
 
