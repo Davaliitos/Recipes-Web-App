@@ -91,14 +91,14 @@ const Header = props => {
                 </Clickable>
                 <Clickable className={classes.clickable} onClick={onNav}>
                     <Highlight className={classes.button} animate layer="header">
-                        <Link className={classes.link} to="/ingredients">
+                        <Link className={classes.link} to="/list/ingredients">
                             <i className="material-icons">update</i>Ingredients List
                         </Link>
                     </Highlight>
                 </Clickable>
                 <Clickable className={classes.clickable} onClick={onNav}>
                     <Highlight className={classes.button} animate layer="header">
-                        <Link className={classes.link} to="/ingredients/create">
+                        <Link className={classes.link} to="/create/ingredients">
                             <i className="material-icons">check_circle_outline</i>Create Ingredient
                         </Link>
                     </Highlight>

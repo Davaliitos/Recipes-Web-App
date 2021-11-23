@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8000/api/v0';
+const API_URL = `${window.location.origin}/api/v0`;
 
 /*
     Ingredients

@@ -75,7 +75,7 @@ const AppLayout = props => {
                                 />
                             }>
                             </Route>
-                            <Route exact path='/ingredients' element={
+                            <Route exact path='/list/ingredients' element={
                                 <ListIngredients
                                     entered={anim.entered}
                                     ingredients={ingredients}
@@ -83,7 +83,7 @@ const AppLayout = props => {
                                 />
                             }>
                             </Route>
-                            <Route exact path='/ingredients/create' element={
+                            <Route exact path='/create/ingredients' element={
                                 <CreateIngredient
                                     entered={anim.entered}
                                     createIngredient={createIngredient}
