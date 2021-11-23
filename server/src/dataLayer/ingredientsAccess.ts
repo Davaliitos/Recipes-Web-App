@@ -32,6 +32,7 @@ export async function getAllIngredients(): Promise<IngredientItem[]>{
 
 export async function createIngredient(ingredient: IngredientItem): Promise<IngredientItem>{
     
+    console.log(ingredient)
     const ingredientObj = {
         ingredientId: ingredient.name,
         ...ingredient
