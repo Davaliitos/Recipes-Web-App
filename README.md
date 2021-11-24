@@ -29,7 +29,7 @@ The application stores RecipeItems, each Recipe contains the following fields:
   * `ingredientId` (string) - an id for an ingredient
   * `name` (string) - the name of an ingredient
 
-# Recipe Item
+# Ingredient Item
 
 The application stores also IngredientItems, each IngredientItem contains the following fields:
 
